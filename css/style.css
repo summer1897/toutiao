@@ -1,0 +1,49 @@
+/**
+ * 公共头部样式 
+ */
+.header-bg {
+	background-color: #cc3131;
+}
+.header-bg h1,.header-bg a {
+	color: #fff;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+	color: #cc3131;
+}
+
+/**
+ * 注册、登陆页面样式
+ */
+.register,.login, .find-password {
+	margin-top: 50px;
+}
+.mui-input-row input {
+	font-size: 13px;
+}
+.validate-code-btn {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	border: 0px;
+	color: #cc3131;
+	font-size: 13px;
+}
+.register-btn, .login-btn, .find-pwd-btn {
+	margin: 20px 0px;
+	padding: 0px 20px;
+}
+.register-btn button, .login-btn button, .find-pwd-btn button {
+	width: 100%;
+	border: 0px;
+	padding: 10px 0px;
+	background-color: #cc3131;
+	color: #fff;
+}
+.register-btn p, .login-btn p, .find-pwd-btn p {
+	margin: 10px 0px 0px;
+	padding: 0px 5px;
+}
+.register-btn p a, .login-btn p a, .find-pwd-btn p a {
+	font-size: 13px;
+	color: #777;
+}
